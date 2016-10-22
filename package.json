@@ -25,10 +25,13 @@
     {
       "locator": "https://github.com/jcesarmobile/FilePicker-Phonegap-iOS-Plugin.git",
       "id": "com.jcesarmobile.filepicker"
-    }
+    },
+    "cordova-plugin-dialogs",
+    "cordova-plugin-file-transfer",
+    "cordova-plugin-file",
+    "cordova-plugin-compat"
   ],
   "cordovaPlatforms": [
-    "ios",
     {
       "platform": "ios",
       "version": "",
