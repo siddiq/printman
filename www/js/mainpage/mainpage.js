@@ -43,9 +43,9 @@ angular.module('starter.controllers')
             $scope.vm.doc = url;
             $scope.upload(url);
 
-            navigator.notifications.alert(url);
+            navigator.notification.alert(url);
         }, function (error) {
-            navigator.notifications.alert(error);
+            navigator.notification.alert(error);
         })
 
     }
